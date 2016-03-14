@@ -1,0 +1,17 @@
+{
+  "name": "intra-start",
+  "description": "Customizable startpage for intranets",
+  "main": "bin/server.js",
+  "authors": [
+    "Felix Bytow <felix.bytow@autinity.de>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/Drako/IntraStart",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
