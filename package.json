@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Customizable startpage for intranets",
   "main": "bin/server.js",
+  "scripts": {
+      "prestart": "grunt",
+      "start": "node bin/server.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Drako/IntraStart.git"
@@ -12,5 +16,15 @@
   "bugs": {
     "url": "https://github.com/Drako/IntraStart/issues"
   },
-  "homepage": "https://github.com/Drako/IntraStart#readme"
+  "homepage": "https://github.com/Drako/IntraStart#readme",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4",
+    "jade": "^1.11.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.0"
+  }
 }

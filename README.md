@@ -6,6 +6,9 @@ This project is a customizable template for intranet startpages.
 
 Just clone the repository and install the dependencies
 ```
+# you need grunt-cli installed on your system
+npm install -g grunt-cli
+
 git clone https://github.com/Drako/IntraStart
 cd IntraStart
 npm install
@@ -14,8 +17,13 @@ bower install
 
 ## Usage
 
-Just switch into the installation directory and from there run the `bin/server.js`.
-You may provide the script with the usual node.js parameters.
+```
+npm start
+```
+
+This will run grunt to minify js files and copy 3rd party js files to there
+final location. After that the actual server is started.
+You may want to set **NODE_ENV** to 'production' when the page is ready for use.
 
 ## LICENSE
 

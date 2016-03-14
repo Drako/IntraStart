@@ -1,0 +1,14 @@
+doctype html
+html
+    head
+        meta(charset='utf-8')
+        meta(http-equiv='content-type', content='text/html; charset=utf-8')
+        title= title
+        script(src='assets/scripts/angular.min.js')
+        script(src='assets/scripts/intrastart.min.js')
+    body(ng-app='intraStart')
+        header(ng-include='\'assets/header.html\'')
+        nav(ng-include='\'assets/navigation.html\'')
+        div#content(ng-include='\'assets/content.html\'')
+        footer(ng-include='\'assets/footer.html\'')
+        
