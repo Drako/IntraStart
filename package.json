@@ -1,0 +1,16 @@
+{
+  "name": "intra-start",
+  "version": "1.0.0",
+  "description": "Customizable startpage for intranets",
+  "main": "bin/server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Drako/IntraStart.git"
+  },
+  "author": "Felix Bytow <felix.bytow@autinity.de>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Drako/IntraStart/issues"
+  },
+  "homepage": "https://github.com/Drako/IntraStart#readme"
+}
