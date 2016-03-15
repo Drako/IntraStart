@@ -21,7 +21,7 @@ bower install
 npm start
 ```
 
-This will run grunt to minify js files and copy 3rd party js files to there
+This will run grunt to minify js files and copy 3rd party js files to their
 final location. After that the actual server is started.
 You may want to set **NODE_ENV** to 'production' when the page is ready for use.
 
