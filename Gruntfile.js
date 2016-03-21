@@ -22,11 +22,21 @@ module.exports = function(grunt) {
                     ]
                 }
             }
+        },
+        'cssmin': {
+            'main': {
+                'files': {
+                    'assets/styles/intrastart.min.css': [
+                        'styles/navigation.css'
+                    ]
+                }
+            }
         }
     });
 
     grunt.loadNpmTasks('grunt-contrib-copy');
     grunt.loadNpmTasks('grunt-contrib-uglify');
+    grunt.loadNpmTasks('grunt-contrib-cssmin');
 
-    grunt.registerTask('default', ['copy', 'uglify']);
+    grunt.registerTask('default', ['copy', 'uglify', 'cssmin']);
 };
