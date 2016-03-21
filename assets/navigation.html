@@ -1,14 +1,12 @@
-<nav ng-controller="nav">
-    <ul class="navigation menu">
-        <li ng-repeat="section in menu">
-            <span class="navigation section">
-                {{ section.name }}
-            </span>
-            <ul class="navigation submenu">
-                <li ng-repeat="entry in section.entries">
-                    <a href="{{ entry.href }}" target="_blank">{{ entry.title }}</a>
-                </li>
-            </ul>
-        </li>
-    </ul>
-</nav>
+<ul ng-controller="nav" class="navigation menu">
+    <li ng-repeat="section in menu">
+        <span class="navigation section">
+            {{ section.name }}
+        </span>
+        <ul class="navigation submenu">
+            <li ng-repeat="entry in section.entries">
+                <a href="{{ entry.href }}" target="_blank">{{ entry.title }}</a>
+            </li>
+        </ul>
+    </li>
+</ul>
